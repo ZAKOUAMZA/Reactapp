@@ -1,0 +1,31 @@
+
+.cweet{
+    border: 2px solid rgba(0, 115, 255, 0.73);
+    border-radius: 15px;
+    width: fit-content;
+    min-width: 250px;
+    background-color: rgba(9, 183, 183, 0.745);
+    padding: 15px;
+    position: relative;
+}
+.cweet h3, p{
+    margin: 0px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.tweet-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.button{
+    border-radius: 5px ;
+}
+.cweet .delete{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
